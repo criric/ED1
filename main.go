@@ -8,8 +8,9 @@ import (
 
 func main() {
 	//var linkedlist list.ArrayList
-	linkedlist := list.LinkedList{}
-	limit := 15
+	linkedlist := list.ArrayList{}
+	limit := 100
+	linkedlist.Init(limit)
 
 	for i := 0; i < limit; i++ {
 		linkedlist.Add(i)
